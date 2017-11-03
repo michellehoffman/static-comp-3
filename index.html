@@ -14,7 +14,7 @@
       </section>
       <section>
         <h1>Main</h1>
-        <nav>
+        <nav class="main-nav">
           <ul>
             <li><!-- <img> -->Home</li>
             <li><!-- <img> -->Jobs</li>
@@ -26,7 +26,7 @@
       </section>
       <section>
         <h1>Admin</h1>
-        <nav>
+        <nav class="admin-nav">
           <ul>
             <li><!-- <img> -->Users</li>
             <li><!-- <img> -->Locations</li>
@@ -38,7 +38,7 @@
       </section>
       <section>
         <h1>Categories</h1>
-        <nav>
+        <nav class="categories-nav">
           <ul>
             <li><!-- <img> -->Administrative</li>
             <li><!-- <img> -->Design</li>
@@ -48,15 +48,15 @@
         </nav>
       </section>
     </header>
-    <section>
+    <section class="search">
       <!-- <img> -->
-      <label for="search"></label>
-      <input id="search" type="search" placeholder="Search for a job, task or resume">
+      <label for="search-bar"></label>
+      <input id="search-bar" type="search" placeholder="Search for a job, task or resume">
       <!-- <img> -->
       <!-- <img> -->
       <!-- <img> -->
     </section>
-    <section>
+    <section class="job-listing">
       <h2>Customer Service Representative</h2>
       <!-- <img> -->
       <p>San Francisco, CA</p>
@@ -68,7 +68,7 @@
       <button><!-- <img> --></button>
     </section>
     <section>
-      <nav>
+      <nav class="dashboard-nav">
         <ul>
           <li>Summary</li>
           <li>Applicants</li>
@@ -80,14 +80,14 @@
         </ul>
       </nav>
     </section>
-    <section>
-      <article>
+    <section class="dashboard">
+      <article class="graph">
         <!-- circle -->
-        <p>3,154 Applicants</p>
+        <p><span class="graph-num">3,154</span> Applicants</p>
         <!-- circle -->
-        <p>1,546 Interviews</p>
+        <p><span class="graph-num">1,546</span> Interviews</p>
         <!-- circle -->
-        <p>912 Forwards</p>
+        <p><span class="graph-num">912</span> Forwards</p>
         <p>TOTALS * Out of 5,231 views</p>
       </article>
       <article>
@@ -97,7 +97,7 @@
       <!-- <img> -->
     </section>
     <section>
-      <article>
+      <article class="description-table">
         <h3>Job Description</h3>
         <button><!-- <img> -->Edit</button>
         <h4>Position Title</h4>
@@ -119,31 +119,32 @@
         <p>$58,000</p>
       </article>
     </section>
-    <section>
-      <article>
+    <section class="share-links">
+      <article class="social-btns">
         <button><!-- <img> -->Post to Facebook</button>
         <button><!-- <img> -->Tweet this Job</button>
         <button><!-- <img> -->Post to LinkedIn</button>
       </article>
-      <article>
+      <article class="link-to-job">
         <!-- <img> -->
         <h5>Link to this Job</h5>
         <p>Lorem ipsum dolor sit amet, consectetur adipis cip elit. Integer millis neque eget vestibpend.</p>
         <a></a>
         <button>Copy</button>
       </article>
-      <article>
+      <article class="embed">
         <!-- <img> -->
         <h5>Use the Buttom Widget</h5>
         <p>This widget embeds the buttons for sharing the job for submitting a resume on your website.</p>
         <a></a>
         <button>Copy</button>
       </article>
-      <article>
+      <article class="upload">
         <!-- <img> -->
         <h5>Upload Resumes by Email</h5>
         <p>You can automatically upload multiple resumes to this job by emailing the address below.</p>
-        <a></a>
+        <label for="email-input">
+        <input type="email" id="email-input">
       </article>
     </section>
   </body>
