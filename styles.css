@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+}
+
+/*Sidebar Navigation*/
+
+h1 {
+  font-size: 14px;
+}
+
+.sidebar-nav {
+  background-color: grey;
+  color: white;
+  position: absolute;
+  width: 200px;
+}
+
+.sidebar-nav section {
+  padding: 30px 20px;
+  border-bottom: 1px solid black;
+}
+
+.profile-img {
+  height: auto;
+  width: 100px;
+  border-radius: 100%;
+}
+
+.log-in {
+  text-align: center;
+}
+
+#username {
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+#username,
+.carrot {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.carrot {
+  transform: rotate(90deg);
+}
+
+li {
+  display: block;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+.categories-nav li {
+  text-transform: none;
+}
+
+/*Main Content*/
+
+.content {
+  position: absolute;
+  left: 200px;
+}
+
+/*Search Bar*/
+
+
