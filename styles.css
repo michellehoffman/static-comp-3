@@ -68,5 +68,38 @@ li {
 }
 
 /*Search Bar*/
+.search img,
+.search form {
+  height: 30px;
+  display: inline-block;
+}
 
+.search form{
+  width: 70%;
+  height: 70px;
+}
 
+input {
+  width: 72.55%;
+  border: none;
+  border-right: 1px solid grey;
+  padding: 33px;
+  position: relative;
+  bottom: 35px;
+}
+
+.search img {
+  padding: 25px;
+  border-right: 1px solid grey;
+}
+
+.search {
+  border-bottom: 1px solid grey;
+  height: 80px;
+}
+
+/*Dashboard Content*/
+
+.job-listing {
+  padding: 30px 30px 10px 30px;
+}
