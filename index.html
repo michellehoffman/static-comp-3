@@ -58,16 +58,16 @@
     </section>
     <section class="job-listing">
       <h2>Customer Service Representative</h2>
-      <!-- <img> -->
-      <p>San Francisco, CA</p>
-      <!-- <img> -->
-      <a>Preview this post</a>
-      <button><!-- <img> -->Open</button>
-      <button><!-- <img> --></button>
-      <button><!-- <img> --></button>
-      <button><!-- <img> --></button>
+      <p><img src="svg/027-gps.svg" class="location-icon">San Francisco, CA</p>
+      <a href="">Preview this post</a>
+      <div class="edit-buttons">
+        <button><span class="green-circle"></span>Open</button>
+        <button><img src="svg/009-bookmark.svg"></button>
+        <button><img src="svg/008-pencil-edit-button.svg"></button>
+        <button><img src="svg/007-waste-bin.svg"></button>
+      </div>
     </section>
-    <section>
+    <section class="secondary-nav-section">
       <nav class="dashboard-nav">
         <ul>
           <li>Summary</li>
@@ -80,23 +80,36 @@
         </ul>
       </nav>
     </section>
+    <div class="grey-background">
     <section class="dashboard">
       <article class="graph">
-        <!-- circle -->
-        <p><span class="graph-num">3,154</span> Applicants</p>
-        <!-- circle -->
-        <p><span class="graph-num">1,546</span> Interviews</p>
-        <!-- circle -->
-        <p><span class="graph-num">912</span> Forwards</p>
-        <p>TOTALS * Out of 5,231 views</p>
+        <div class="graph-1">
+          <div class="graph-text">
+            <p><span class="graph-num">3,154</span></p>
+            <p>Applicants</p>
+          </div>
+        </div>
+        <div class="graph-2">
+          <div class="graph-text">
+            <p><span class="graph-num">1,546</span></p>
+            <p>Interviews</p>
+          </div>
+        </div>
+        <div class="graph-3">
+          <div class="graph-text">
+            <p><span class="graph-num">912</span></p>
+            <p>Forwards</p>
+          </div>
+        </div>
+        <p class="caption">TOTALS * Out of 5,231 views</p>
       </article>
-      <article>
-        <!-- <img> -->
-        <p>Applicants/Day</p>
+      <article class="bar-graph">
+        <img id="bar-graph-img" src="https://www.researchgate.net/profile/Jasmin_Shah/publication/5267611/figure/fig4/AS:328186928877572@1455257269944/Fig-4-Bar-graph-of-average-concentration-at-different-distance-from-pp-DDT-factory.png">
+        <p class="caption">Applicants/Day</p>
       </article>
       <!-- <img> -->
     </section>
-    <section>
+    <section class="dashboard-bottom">
       <article class="description-table">
         <h3>Job Description</h3>
         <button><!-- <img> -->Edit</button>
@@ -143,10 +156,10 @@
         <!-- <img> -->
         <h5>Upload Resumes by Email</h5>
         <p>You can automatically upload multiple resumes to this job by emailing the address below.</p>
-        <label for="email-input">
+        <label for="email-input"></label>
         <input type="email" id="email-input">
       </article>
     </section>
-  </section>
+  </div>
   </body>
 </html>

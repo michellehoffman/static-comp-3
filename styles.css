@@ -98,8 +98,156 @@ input {
   height: 80px;
 }
 
-/*Dashboard Content*/
+/*Job Listing Content*/
 
 .job-listing {
-  padding: 30px 30px 10px 30px;
+  padding: 30px 30px 50px 30px;
+  background-color: white;
+}
+
+.job-listing img {
+  width: 15px;
+}
+
+.job-listing button {
+  padding: 10px;
+  background-color: white;
+  border-radius: 100%;
+}
+
+.edit-buttons {
+  position: absolute;
+  right: 30px;
+  top: 120px;
+}
+
+.location-icon {
+  margin-right: 7px;
+}
+
+.job-listing p {
+  display: inline;
+  margin-right: 30px;
+}
+
+/*Dashboard Nav Bar*/
+
+.dashboard-nav li {
+  display: inline;
+  margin: 0px 15px 0px 30px;
+  padding-bottom: 17px;
+}
+
+.dashboard-nav li:hover {
+  border-bottom: 3px solid blue;
+}
+
+/*Dashboard Content*/
+.dashboard {
+  margin-top: 20px;
+  border-bottom: 1px solid grey;
+  padding-bottom: 50px;
+}
+
+.grey-background {
+  background-color: lightgrey;
+}
+
+.graph-1 {
+  width: 175px;
+  height: 175px;
+  border: 5px solid teal;
+  border-bottom-color: grey;
+  border-radius: 100%;
+  transform: rotate(-45deg);
+  text-align: center;
+}
+
+.graph-2 {
+  width: 175px;
+  height: 175px;
+  border: 5px solid purple;
+  border-bottom-color: grey;
+  border-right-color: grey;
+  border-top-color: grey;
+  border-radius: 100%;
+  transform: rotate(-45deg);
+  text-align: center;
+}
+
+
+.graph-3 {
+  width: 175px;
+  height: 175px;
+  border: 5px solid green;
+  border-bottom-color: grey;
+  border-right-color: grey;
+  border-radius: 100%;
+  transform: rotate(-45deg);
+  text-align: center;
+}
+
+.graph-text {
+  transform: rotate(45deg);
+  position: relative;
+  top: 55px;
+}
+
+.graph-1,
+.graph-2,
+.graph-3 {
+  display: inline-block;
+  margin: 10px;
+}
+
+.graph-num {
+  font-size: 35px;
+}
+
+.graph,
+.bar-graph {
+  display: inline-block;
+}
+
+.graph {
+  width: 55%;
+  padding: 50px 0px 30px 30px;
+}
+
+.bar-graph {
+  width: 42%;
+  position: relative;
+  top: 15px;
+  left: 50px;
+}
+
+#bar-graph-img {
+  height: 225px;
+}
+
+.caption {
+  border: 1px solid grey;
+  background-color: white;
+  padding: 7px;
+  border-radius: 1em;
+  position: relative;
+  text-align: center;
+}
+
+.graph .caption {
+  width: 220px;
+  left: 28%;
+  top: 25px;
+}
+
+.bar-graph .caption {
+  width: 125px;
+  left: 27%;
+  top: 10px;
+}
+
+/*Dashboard Bottom*/
+
+.dashboard-bottom {
+  margin-top: 40px;
 }
