@@ -61,7 +61,7 @@
       <p><img src="svg/027-gps.svg" class="location-icon">San Francisco, CA</p>
       <a href="">Preview this post</a>
       <div class="edit-buttons">
-        <button><span class="green-circle"></span>Open</button>
+        <button id="open-btn">Open</button>
         <button><img src="svg/009-bookmark.svg"></button>
         <button><img src="svg/008-pencil-edit-button.svg"></button>
         <button><img src="svg/007-waste-bin.svg"></button>
@@ -109,57 +109,86 @@
       </article>
       <!-- <img> -->
     </section>
-    <section class="dashboard-bottom">
+    <div class="dashboard-bottom">
+    <section class="table">
       <article class="description-table">
-        <h3>Job Description</h3>
-        <button><!-- <img> -->Edit</button>
-        <h4>Position Title</h4>
-        <p>Customer Service Representative</p>
-        <h4>Location</h4>
-        <p>San Francisco, CA</p>
-        <h4>Employment Type</h4>
-        <p>Full-time</p>
-        <h4>Experience</h4>
-        <p>Mid-level</p>
-        <h4>Status</h4>
-        <p>Open</p>
-        <h4>Description</h4>
-        <p>The Customer Service Representative is responsible for interacting with and providing quality assistance to all radical customers, responsible for keeping up-to-date on the various product shizzle; helping the bidness reduce customer service wait times while doing a backhand spring and eating a ham sandwich.</p>
-        <h4>Hiring Lead</h4>
-        <!-- <img> -->
-        <p>Tom Tizzy</p>
-        <h4>Approved Salary</h4>
-        <p>$58,000</p>
+        <table>
+          <thead>
+            <tr>
+              <th class="col-1">Job Description</th>
+              <th><button>Edit</button></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col-1">Position Title</td>
+              <td class="col-2">Customer Service Representative</td>
+            </tr>
+            <tr>
+              <td class="col-1">Location</td>
+              <td class="col-2">San Francisco, CA</td>
+            </tr>
+            <tr>
+              <td class="col-1">Employment Type</td>
+              <td class="col-2">Full-time</td>
+            </tr>
+            <tr>
+              <td class="col-1">Experience</td>
+              <td class="col-2">Mid-level</td>
+            </tr>
+            <tr>
+              <td class="col-1">Status</td>
+              <td class="col-2">Open</td>
+            </tr>
+            <tr>
+              <td class="col-1">Description</td>
+              <td class="col-2">The Customer Service Representative is responsible for interacting with and providing quality assistance to all radical customers, responsible for keeping up-to-date on the various product shizzle; helping the bidness reduce customer service wait times while doing a backhand spring and eating a ham sandwich.</td>
+            </tr>
+            <tr>
+              <td class="col-1">Hiring Lead</td>
+              <td class="col-2">Tom Tizzy</td>
+            </tr>
+            <tr>
+              <td class="col-1">Approved Salary</td>
+              <td class="col-2">$58,000</td>
+            </tr>
+          </tbody>
+        </table>
       </article>
     </section>
     <section class="share-links">
       <article class="social-btns">
-        <button><!-- <img> -->Post to Facebook</button>
-        <button><!-- <img> -->Tweet this Job</button>
-        <button><!-- <img> -->Post to LinkedIn</button>
+        <button class="facebook-btn">Post to Facebook</button>
+        <button class="twitter-btn"><!-- <img> -->Tweet this Job</button>
+        <button class="linked-in-btn"><!-- <img> -->Post to LinkedIn</button>
       </article>
       <article class="link-to-job">
-        <!-- <img> -->
-        <h5>Link to this Job</h5>
+        <img src="svg/003-planet-earth.svg">
+        <h3>Link to this Job</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipis cip elit. Integer millis neque eget vestibpend.</p>
-        <a></a>
-        <button>Copy</button>
+        <div class="link-section">
+          <p class="link">http://loremipsum.dol/sit amet censectec...</p>
+          <p class="copy-btn">Copy</p>
+        </div>
       </article>
       <article class="embed">
-        <!-- <img> -->
-        <h5>Use the Buttom Widget</h5>
+        <img src="svg/002-send-message-button.svg">
+        <h3>Use the Button Widget</h3>
         <p>This widget embeds the buttons for sharing the job for submitting a resume on your website.</p>
-        <a></a>
-        <button>Copy</button>
+        <div class="link-section">
+          <p class="link">script type="javascript" src="script.js" r...</p>
+          <p class="copy-btn">Copy</p>
+        </div>
       </article>
       <article class="upload">
-        <!-- <img> -->
-        <h5>Upload Resumes by Email</h5>
+        <img src="svg/001-link.svg">
+        <h3>Upload Resumes by Email</h3>
         <p>You can automatically upload multiple resumes to this job by emailing the address below.</p>
         <label for="email-input"></label>
-        <input type="email" id="email-input">
+        <input type="email" id="email-input" placeholder="tomtizzy@gmail.com">
       </article>
     </section>
+  </div>
   </div>
   </body>
 </html>
