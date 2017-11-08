@@ -17,20 +17,20 @@ h1 {
 .sidebar-nav {
   background-color: grey;
   color: lightgrey;
+  height: 1606px;
   position: absolute;
   width: 200px;
-  height: 1606px;
 }
 
 .sidebar-nav section {
-  padding: 30px 20px;
   border-bottom: 1px solid black;
+  padding: 30px 20px;
 }
 
 .profile-img {
+  border-radius: 100%;
   height: auto;
   width: 100px;
-  border-radius: 100%;
 }
 
 .log-in {
@@ -54,10 +54,10 @@ h1 {
 
 li {
   display: block;
-  margin-top: 20px;
-  text-transform: uppercase;
   font-size: 14px;
   font-weight: 700;
+  margin-top: 20px;
+  text-transform: uppercase;
 }
 
 .sidebar-nav li:hover {
@@ -65,8 +65,8 @@ li {
 }
 
 .categories-nav li {
-  text-transform: none;
   font-size: 12px;
+  text-transform: none;
 }
 
 .sidebar-nav li img {
@@ -74,40 +74,40 @@ li {
   margin-right: 15px;
 }
 
-/*Main Content*/
+/*Main Content Container*/
 
 .content {
-  position: absolute;
   left: 200px;
+  position: absolute;
 }
 
 /*Search Bar*/
 .search img,
 .search form {
-  height: 30px;
   display: inline-block;
+  height: 30px;
 }
 
 .search form{
-  width: 60%;
   height: 70px;
+  width: 60%;
 }
 
 input {
-  width: 70%;
+  display: inline-flex;
   border: none;
   border-right: 1px solid grey;
-  display: inline-flex;
-  padding: 32px;
-  position: relative;
   bottom: 35px;
   font-size: 16px;
+  width: 70%;
+  padding: 32px;
+  position: relative;
 }
 
 .search img {
-  width: 7%;
-  padding: 25px 0px;
   border-right: 1px solid grey;
+  padding: 25px 0px;
+  width: 7%;
 }
 
 .search {
@@ -118,13 +118,13 @@ input {
 /*Job Listing Content*/
 
 .job-listing {
-  padding: 30px 30px 50px 30px;
   background-color: white;
+  padding: 30px 30px 50px 30px;
 }
 
 h2 {
-  margin-bottom: 10px;
   font-size: 28px;
+  margin-bottom: 10px; 
 }
 
 .job-listing img {
@@ -132,9 +132,9 @@ h2 {
 }
 
 .job-listing button {
-  padding: 10px;
   background-color: white;
   border-radius: 100%;
+  padding: 10px;
 }
 
 .edit-buttons {
@@ -153,9 +153,9 @@ h2 {
 }
 
 .job-listing button {
-  margin-right: 15px;
   font-size: 14px;
   font-weight: 700;
+  margin-right: 15px;
   text-transform: uppercase;
 }
 
@@ -169,9 +169,9 @@ h2 {
 
 .dashboard-nav li {
   display: inline;
+  font-size: 16px;
   margin: 0px 15px 0px 30px;
   padding-bottom: 17px;
-  font-size: 16px;
 }
 
 .dashboard-nav li:hover {
@@ -180,8 +180,8 @@ h2 {
 
 /*Dashboard Content*/
 .dashboard {
-  margin-top: 20px;
   border-bottom: 1px solid grey;
+  margin-top: 20px;
   padding-bottom: 50px;
 }
 
@@ -193,51 +193,41 @@ h2 {
   background-color: lightgrey;
 }
 
-.graph-1 {
-  width: 160px;
-  height: 160px;
-  border: 10px solid teal;
-  border-bottom-color: grey;
+.graph-1,
+.graph-2,
+.graph-3 {
   border-radius: 100%;
+  display: inline-block;
+  height: 160px;
+  margin: 20px;
   transform: rotate(-45deg);
   text-align: center;
+  width: 160px;
+}
+
+.graph-1 {
+  border: 10px solid teal;
+  border-bottom-color: grey; 
 }
 
 .graph-2 {
-  width: 160px;
-  height: 160px;
   border: 10px solid purple;
   border-bottom-color: grey;
   border-right-color: grey;
   border-top-color: grey;
-  border-radius: 100%;
-  transform: rotate(-45deg);
-  text-align: center;
 }
 
 
 .graph-3 {
-  width: 160px;
-  height: 160px;
   border: 10px solid green;
   border-bottom-color: grey;
   border-right-color: grey;
-  border-radius: 100%;
-  transform: rotate(-45deg);
-  text-align: center;
 }
 
 .graph-text {
   transform: rotate(45deg);
   position: relative;
   top: 41px;
-}
-
-.graph-1,
-.graph-2,
-.graph-3 {
-  display: inline-block;
-  margin: 20px;
 }
 
 .graph-num {
