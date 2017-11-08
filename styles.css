@@ -4,20 +4,22 @@
 }
 
 body {
-  height: 100%;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /*Sidebar Navigation*/
 
 h1 {
   font-size: 14px;
+  font-weight: 400;
 }
 
 .sidebar-nav {
   background-color: grey;
-  color: white;
+  color: lightgrey;
   position: absolute;
   width: 200px;
+  height: 1606px;
 }
 
 .sidebar-nav section {
@@ -36,7 +38,7 @@ h1 {
 }
 
 #username {
-  font-size: 18px;
+  font-size: 16px;
   margin-right: 5px;
 }
 
@@ -54,10 +56,22 @@ li {
   display: block;
   margin-top: 20px;
   text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.sidebar-nav li:hover {
+  color: white;
 }
 
 .categories-nav li {
   text-transform: none;
+  font-size: 12px;
+}
+
+.sidebar-nav li img {
+  height: 15px;
+  margin-right: 15px;
 }
 
 /*Main Content*/
@@ -80,16 +94,19 @@ li {
 }
 
 input {
-  width: 72.55%;
+  width: 70%;
   border: none;
   border-right: 1px solid grey;
-  padding: 33px;
+  display: inline-flex;
+  padding: 32px;
   position: relative;
   bottom: 35px;
+  font-size: 16px;
 }
 
 .search img {
-  padding: 25px;
+  width: 7%;
+  padding: 25px 0px;
   border-right: 1px solid grey;
 }
 
@@ -103,6 +120,11 @@ input {
 .job-listing {
   padding: 30px 30px 50px 30px;
   background-color: white;
+}
+
+h2 {
+  margin-bottom: 10px;
+  font-size: 28px;
 }
 
 .job-listing img {
@@ -132,6 +154,9 @@ input {
 
 .job-listing button {
   margin-right: 15px;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 #open-btn {
@@ -146,6 +171,7 @@ input {
   display: inline;
   margin: 0px 15px 0px 30px;
   padding-bottom: 17px;
+  font-size: 16px;
 }
 
 .dashboard-nav li:hover {
@@ -159,13 +185,17 @@ input {
   padding-bottom: 50px;
 }
 
+.graph {
+  text-align: center;
+}
+
 .grey-background {
   background-color: lightgrey;
 }
 
 .graph-1 {
-  width: 175px;
-  height: 175px;
+  width: 160px;
+  height: 160px;
   border: 10px solid teal;
   border-bottom-color: grey;
   border-radius: 100%;
@@ -174,8 +204,8 @@ input {
 }
 
 .graph-2 {
-  width: 175px;
-  height: 175px;
+  width: 160px;
+  height: 160px;
   border: 10px solid purple;
   border-bottom-color: grey;
   border-right-color: grey;
@@ -187,8 +217,8 @@ input {
 
 
 .graph-3 {
-  width: 175px;
-  height: 175px;
+  width: 160px;
+  height: 160px;
   border: 10px solid green;
   border-bottom-color: grey;
   border-right-color: grey;
@@ -200,18 +230,19 @@ input {
 .graph-text {
   transform: rotate(45deg);
   position: relative;
-  top: 55px;
+  top: 41px;
 }
 
 .graph-1,
 .graph-2,
 .graph-3 {
   display: inline-block;
-  margin: 10px;
+  margin: 20px;
 }
 
 .graph-num {
-  font-size: 35px;
+  font-size: 38px;
+  font-weight: 700;
 }
 
 .graph,
@@ -239,21 +270,24 @@ input {
   border: 1px solid grey;
   background-color: white;
   padding: 7px;
-  border-radius: 1em;
+  border-radius: 2em;
   position: relative;
   text-align: center;
+  font-size: 14px;
+  font-weight: 700;
 }
 
 .graph .caption {
-  width: 220px;
-  left: 28%;
+  width: 230px;
+  left: 29.5%;
   top: 25px;
 }
 
 .bar-graph .caption {
-  width: 125px;
-  left: 27%;
+  width: 145px;
+  left: 26%;
   top: 10px;
+  text-transform: uppercase;
 }
 
 /*Dashboard Bottom*/
@@ -273,6 +307,20 @@ thead {
   color: white;
   text-align: left;
   padding: none;
+  font-weight: 700;
+}
+
+th button {
+  padding: 10px;
+  text-transform: uppercase;
+  border-radius: 0;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+th button img {
+  height: 15px;
+  margin-right: 10px;
 }
 
 table {
@@ -287,6 +335,8 @@ tbody {
 .col-1 {
   padding: 30px 0px 30px 30px;
   width: 30%;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .col-2 {
@@ -298,21 +348,38 @@ td {
   width: 80%;
 }
 
+tbody img {
+  width: 40px;
+  border-radius: 100%;
+  margin-right: 20px;
+}
+
+/*.row-7 {
+  min-height: 1000px; 
+}*/
+
 /*Social Sharing Section*/
 
 .share-links {
   width: 30%;
   position: absolute;
   right: 30px;
-  top: 685px;
+  top: 693px;
 }
 
 .social-btns button{
   width: 100%;
   border-radius: 0;
   padding: 18px;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
   color: white;
+  font-size: 16px;
+}
+
+.social-btns img{
+  position: relative;
+  top: 40px;
+  left: 20px;
 }
 
 .facebook-btn {
@@ -352,9 +419,11 @@ h3 {
 .link {
   background-color: white;
   padding: 15px;
+  max-height: 22px;
+  overflow: scroll;
   color: grey;
-  width: 90%;
-  display: inline;
+  width: 70%;
+  display: inline-flex;
   margin-right: 0;
 }
 
@@ -363,13 +432,13 @@ h3 {
   border: none; 
   padding: 15px;
   width: 10%;
-  display: inline;
+  display: inline-flex;
   color: white;
   margin-left: 0;
 }
 
 .link-to-job {
-  margin-top: 12px;
+  margin-top: 25px;
 }
 
 .link-to-job,
@@ -388,13 +457,291 @@ h3 {
 
 .link-to-job p,
 .embed p {
-  margin: 10px 0px 35px 0px;
+  margin: 15px 0px 10px 0px;
 }
 
 .link-section {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .upload p {
   margin-top: 10px;
+}
+
+.upload input {
+  font-size: 16px;
+  padding: 15px;
+  width: 91%;
+}
+
+/*Media Queries*/
+
+@media screen and (max-width: 1425px){
+
+  .graph {
+    text-align: center;
+  }
+
+  .share-links {
+    top: 696px;
+  }
+}
+
+@media screen and (max-width: 1415px) {
+  .share-links {
+    top: 915px;
+  }
+}
+
+@media screen and (max-width: 1377px) {
+  .social-btns button{
+    margin-bottom: 0;
+  }
+
+  .sidebar-nav{
+    height: 1848px;
+  }
+
+  .link-description {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 1337px) {
+  .sidebar-nav{
+    height: 1893px;
+  }
+
+  .share-links {
+    top: 961px;
+  }
+
+  .dashboard {
+    text-align: center;
+  }
+
+  .graph {
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .graph .caption {
+    left: 39%;
+  }
+
+  .bar-graph {
+    left: 0;
+  }
+
+  .bar-graph .caption {
+    left: 33%;
+  }
+}
+
+@media screen and (max-width: 1268px) {
+
+  .link {
+    width: 69%;
+  }
+}
+
+@media screen and (max-width: 1228px) {
+
+  #search-bar {
+    width: 69.6%;
+  }
+}
+
+@media screen and (max-width: 1217px) {
+
+  .link {
+    width: 68%;
+  }
+}
+
+@media screen and (max-width: 1207px) {
+
+  .sidebar-nav {
+    height: 1915px;
+  }
+}
+
+@media screen and (max-width: 1198px) {
+
+  .share-links {
+    top: 961px;
+  }
+
+  .dashboard-nav li {
+    margin-right: 0px;
+  }
+}
+
+@media screen and (max-width: 1195px) {
+
+  .sidebar-nav {
+    height: 1937px;
+  }
+}
+
+@media screen and (max-width: 1184px) {
+
+  .sidebar-nav {
+    height: 1959px;
+  }
+}
+
+@media screen and (max-width: 1171px) {
+
+  .link {
+    width: 67%;
+  }
+}
+
+@media screen and (max-width: 1129px) {
+  .link {
+    width: 66%;
+  }
+}
+
+@media screen and (max-width: 1123px) {
+
+  .sidebar-nav {
+    height: 1981px;
+  }
+}
+
+@media screen and (max-width: 1101px) {
+  .dashboard-nav li {
+    line-height: 50px;
+  }
+
+  .sidebar-nav li,
+  .sidebar-nav img {
+    display: none;
+  }
+
+  .sidebar-nav section {
+    border: none;
+  }
+
+  .sidebar-nav {
+    display: inline-flex;
+    height: 100px;
+    width: 100%;
+  }
+
+  .content {
+    top: 101px;
+    width: 100%;
+    left: 0;
+  }
+
+  #search-bar {
+    height: 70px;
+    width: 70%;
+  }
+
+  .description-table {
+  width: 100%;
+  }
+
+  .share-links {
+    width: 100%;
+    position: static;
+  }
+
+  .link {
+    width: 88%;
+  }
+
+  .copy-btn {
+    width: 5%;
+  }
+
+  #email-input {
+    width: 94%;
+  }
+}
+
+@media screen and (max-width: 1026px) {
+  #search-bar {
+    width: 69%;
+  }
+}
+
+@media screen and (max-width: 976px) {
+  .link {
+    width: 87%;
+  }
+}
+
+@media screen and (max-width: 861px) {
+  .link {
+    width: 86%;
+  }
+}
+
+@media screen and (max-width: 792px) {
+  .edit-buttons {
+    position: static;
+    margin-top: 30px;
+  }
+
+  .job-listing{
+    text-align: center;
+  }
+
+  .dashboard-nav ul {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 772px) {
+  .link {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 701px) {
+  .link {
+    width: 84%;
+  }
+}
+
+@media screen and (max-width: 684px) {
+  #search-bar {
+    width: 68%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .link,
+  .copy-btn {
+    position: static;
+    width: 94%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .search .hamburger {
+    display: none;
+  }
+
+  .search {
+    text-align: center;
+    position: relative;
+    top: 30px;
+    border: none;
+  }
+
+  #search-bar {
+    width: 100%;
+    display: block;
+    border: 1px solid grey;
+  }
+
+  .search img {
+    display: none;
+  }
 }

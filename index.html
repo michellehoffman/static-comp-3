@@ -3,6 +3,9 @@
   <head>
     <link type="text/css" rel="stylesheet" href="./styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+    </style>
     <title>Static Comp 3</title>
   </head>
   <body>
@@ -16,11 +19,11 @@
         <h1>Main</h1>
         <nav class="main-nav">
           <ul>
-            <li><!-- <img> -->Home</li>
-            <li><!-- <img> -->Jobs</li>
-            <li><!-- <img> -->Resumes</li>
-            <li><!-- <img> -->Tasks</li>
-            <li><!-- <img> -->Calendar</li>
+            <li><img src="svg/022-home-page.svg">Home</li>
+            <li><img src="svg/021-work-briefcase.svg">Jobs</li>
+            <li><img src="svg/020-curriculum.svg">Resumes</li>
+            <li><img src="svg/019-list.svg">Tasks</li>
+            <li><img src="svg/018-calendar.svg">Calendar</li>
           </ul>
         </nav>
       </section>
@@ -28,11 +31,11 @@
         <h1>Admin</h1>
         <nav class="admin-nav">
           <ul>
-            <li><!-- <img> -->Users</li>
-            <li><!-- <img> -->Locations</li>
-            <li><!-- <img> -->Workflows</li>
-            <li><!-- <img> -->Job Boards</li>
-            <li><!-- <img> -->Social</li>
+            <li><img src="svg/017-multiple-users-silhouette.svg">Users</li>
+            <li><img src="svg/010-mark.svg">Locations</li>
+            <li><img src="svg/016-data-analytics-flow-chart-symbol.svg">Workflows</li>
+            <li><img src="svg/015-business.svg">Job Boards</li>
+            <li><img src="svg/014-share.svg">Social</li>
           </ul>
         </nav>
       </section>
@@ -40,10 +43,10 @@
         <h1>Categories</h1>
         <nav class="categories-nav">
           <ul>
-            <li><!-- <img> -->Administrative</li>
-            <li><!-- <img> -->Design</li>
-            <li><!-- <img> -->Executive</li>
-            <li><!-- <img> -->Human Resources</li>
+            <li><img src="svg/checked.svg">Administrative</li>
+            <li><img src="svg/checkbox-1.svg">Design</li>
+            <li><img src="svg/checkbox-2.svg">Executive</li>
+            <li><img src="svg/checkbox-3.svg">Human Resources</li>
           </ul>
         </nav>
       </section>
@@ -116,7 +119,7 @@
           <thead>
             <tr>
               <th class="col-1">Job Description</th>
-              <th><button>Edit</button></th>
+              <th><button><img src="svg/008-pencil-edit-button.svg">Edit</button></th>
             </tr>
           </thead>
           <tbody>
@@ -140,13 +143,13 @@
               <td class="col-1">Status</td>
               <td class="col-2">Open</td>
             </tr>
-            <tr>
+            <tr class="row-7">
               <td class="col-1">Description</td>
               <td class="col-2">The Customer Service Representative is responsible for interacting with and providing quality assistance to all radical customers, responsible for keeping up-to-date on the various product shizzle; helping the bidness reduce customer service wait times while doing a backhand spring and eating a ham sandwich.</td>
             </tr>
             <tr>
               <td class="col-1">Hiring Lead</td>
-              <td class="col-2">Tom Tizzy</td>
+              <td class="col-2"><img src="https://scontent-dft4-3.xx.fbcdn.net/v/t31.0-8/12671638_2769101986468_4422343241278591930_o.jpg?oh=d06f1d2264ea62fbec4d042ee0c11396&oe=5A9B912A">Tom Tizzy</td>
             </tr>
             <tr>
               <td class="col-1">Approved Salary</td>
@@ -158,32 +161,35 @@
     </section>
     <section class="share-links">
       <article class="social-btns">
+        <img src="svg/006-facebook-logo.svg">
         <button class="facebook-btn">Post to Facebook</button>
-        <button class="twitter-btn"><!-- <img> -->Tweet this Job</button>
-        <button class="linked-in-btn"><!-- <img> -->Post to LinkedIn</button>
+        <img src="svg/005-twitter-logo-silhouette.svg">
+        <button class="twitter-btn">Tweet this Job</button>
+        <img src="svg/004-linked-in-logo-key.svg">
+        <button class="linked-in-btn">Post to LinkedIn</button>
       </article>
       <article class="link-to-job">
         <img src="svg/003-planet-earth.svg">
         <h3>Link to this Job</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipis cip elit. Integer millis neque eget vestibpend.</p>
+        <p class="link-description">Lorem ipsum dolor sit amet, consectetur adipis cip elit. Integer millis neque eget vestibpend.</p>
         <div class="link-section">
-          <p class="link">http://loremipsum.dol/sit amet censectec...</p>
+          <p class="link">http://loremipsum.dol/sit amet ce...</p>
           <p class="copy-btn">Copy</p>
         </div>
       </article>
       <article class="embed">
         <img src="svg/002-send-message-button.svg">
         <h3>Use the Button Widget</h3>
-        <p>This widget embeds the buttons for sharing the job for submitting a resume on your website.</p>
+        <p class="link-description">This widget embeds the buttons for sharing the job for submitting a resume on your website.</p>
         <div class="link-section">
-          <p class="link">script type="javascript" src="script.js" r...</p>
+          <p class="link">script type="javascript" src="script...</p>
           <p class="copy-btn">Copy</p>
         </div>
       </article>
       <article class="upload">
         <img src="svg/001-link.svg">
         <h3>Upload Resumes by Email</h3>
-        <p>You can automatically upload multiple resumes to this job by emailing the address below.</p>
+        <p class="link-description">You can automatically upload multiple resumes to this job by emailing the address below.</p>
         <label for="email-input"></label>
         <input type="email" id="email-input" placeholder="tomtizzy@gmail.com">
       </article>
