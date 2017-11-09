@@ -346,14 +346,9 @@ h3 {
   background-color: green;
   border: none;
   color: white; 
-  display: inline-flex;
-  margin-left: 0;
-  padding: 15px;
-  width: 10%;
-}
-
-.embed p {
-  margin-bottom: 30px;
+  font-size: 16px;
+  padding: 15px 22px 15px 19px;
+/*  text-align: center;*/
 }
 
 .embed,
@@ -391,11 +386,12 @@ h3 {
 
 .link-to-job p,
 .embed p {
-  margin: 15px 0px 10px 0px;
+  margin: 15px 0px 20px 0px;
 }
 
 .link-section {
   margin-bottom: 20px;
+  display: flex;
 }
 
 .share-links {
@@ -403,6 +399,7 @@ h3 {
   right: 30px;
   top: 693px;
   width: 30%;
+  min-width: 310px;
 }
 
 .share-links img {
@@ -415,12 +412,10 @@ h3 {
   display: inline;
 }
 
-.share-links input {
+.share-links input,
+.share-links button {
   border: none;
-  padding: 18px;
-  position: relative;
-  top: 25px;
-  width: 87%;
+  margin-bottom: 15px;
 }
 
 .social-btns button{
@@ -443,11 +438,11 @@ h3 {
 }
 
 .upload p {
-  margin-top: 10px;
+  margin: 20px 0px;
 }
 
 .upload input {
   font-size: 16px;
   padding: 15px;
-  width: 91%;
+  width: 90%;
 }
