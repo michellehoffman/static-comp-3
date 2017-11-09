@@ -330,12 +330,20 @@ thead {
 }
 
 .dashboard-bottom {
-  padding: 60px 30px 30px 30px;
+  display: flex;
+  padding: 60px 30px 30px 40px;
 }
 
 .description-table {
   background-color: white;
+  display: inline-block;
+  width: 100%;
+}
+
+.table {
+  display: inline-block;
   width: 65%;
+  padding-right: 30px;
 }
 
 /*Social Sharing Section*/
@@ -377,10 +385,6 @@ h3 {
   background-color: #0077B5;
 }
 
-.link-to-job {
-  margin-top: 25px;
-}
-
 .link-to-job,
 .embed {
   border-bottom: 1px solid grey;
@@ -397,9 +401,7 @@ h3 {
 }
 
 .share-links {
-  position: absolute;
-  right: 30px;
-  top: 693px;
+  display: inline-block;
   width: 30%;
   min-width: 310px;
 }
@@ -420,19 +422,23 @@ h3 {
   margin-bottom: 15px;
 }
 
+.social-btns {
+  margin-bottom: 10px;
+}
+
 .social-btns button{
   border-radius: 0;
   color: white;
   font-size: 16px;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
   padding: 18px;
+  position: relative;
   width: 100%; 
 }
 
 .social-btns img{
+  position: absolute;
   left: 20px;
-  position: relative;
-  top: 40px;
 }
 
 .twitter-btn {
