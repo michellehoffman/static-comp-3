@@ -44,7 +44,6 @@ li {
 .sidebar-nav {
   background-color: grey;
   color: lightgrey;
-  height: 1606px;
   position: absolute;
   width: 200px;
 }
@@ -84,18 +83,17 @@ li {
 /*Search Bar*/
 
 input {
-  display: inline-flex;
   border: none;
   border-right: 1px solid grey;
-  bottom: 35px;
   font-size: 16px;
-  width: 70%;
+  width: 75%;
   padding: 32px;
   position: relative;
 }
 
 .search {
   border-bottom: 1px solid grey;
+  display: flex;
   height: 80px;
 }
 
@@ -112,8 +110,7 @@ input {
 
 .search img {
   border-right: 1px solid grey;
-  padding: 25px 0px;
-  width: 7%;
+  padding: 25px 25px;
 }
 
 /*Job Listing Content*/
@@ -453,275 +450,4 @@ h3 {
   font-size: 16px;
   padding: 15px;
   width: 91%;
-}
-
-/*Media Queries*/
-
-@media screen and (max-width: 1425px){
-
-  .graph {
-    text-align: center;
-  }
-
-  .share-links {
-    top: 696px;
-  }
-}
-
-@media screen and (max-width: 1415px) {
-  .share-links {
-    top: 915px;
-  }
-}
-
-@media screen and (max-width: 1377px) {
-  .link-description {
-    font-size: 12px;
-  }
-
-  .sidebar-nav{
-    height: 1848px;
-  }
-
-  .social-btns button{
-    margin-bottom: 0;
-  }
-}
-
-@media screen and (max-width: 1337px) {
-  .bar-graph {
-    left: 0;
-  }
-
-  .bar-graph .caption {
-    left: 33%;
-  }
-
-  .dashboard {
-    text-align: center;
-  }
-
-  .graph {
-    padding-left: 0;
-    width: 100%;
-  }
-
-  .graph .caption {
-    left: 39%;
-  }
-
-  .share-links {
-    top: 961px;
-  }
-
-  .sidebar-nav{
-    height: 1893px;
-  }
-}
-
-@media screen and (max-width: 1268px) {
-
-  .link {
-    width: 69%;
-  }
-}
-
-@media screen and (max-width: 1228px) {
-
-  #search-bar {
-    width: 69.6%;
-  }
-}
-
-@media screen and (max-width: 1217px) {
-
-  .link {
-    width: 68%;
-  }
-}
-
-@media screen and (max-width: 1207px) {
-
-  .sidebar-nav {
-    height: 1915px;
-  }
-}
-
-@media screen and (max-width: 1198px) {
-  .dashboard-nav li {
-    margin-right: 0px;
-  }
-
-  .share-links {
-    top: 961px;
-  }
-}
-
-@media screen and (max-width: 1195px) {
-
-  .sidebar-nav {
-    height: 1937px;
-  }
-}
-
-@media screen and (max-width: 1184px) {
-
-  .sidebar-nav {
-    height: 1959px;
-  }
-}
-
-@media screen and (max-width: 1171px) {
-
-  .link {
-    width: 67%;
-  }
-}
-
-@media screen and (max-width: 1129px) {
-  .link {
-    width: 66%;
-  }
-}
-
-@media screen and (max-width: 1123px) {
-
-  .sidebar-nav {
-    height: 1981px;
-  }
-}
-
-@media screen and (max-width: 1101px) {
-  .content {
-    left: 0;
-    top: 101px;
-    width: 100%;
-  }
-
-  .copy-btn {
-    width: 5%;
-  }
-
-  .dashboard-nav li {
-    line-height: 50px;
-  }
-
-  .description-table {
-    width: 100%;
-  }
-
-  .sidebar-nav {
-    display: inline-flex;
-    height: 100px;
-    width: 100%;
-  }
-
-  .link {
-    width: 88%;
-  }
-
-  .sidebar-nav li,
-  .sidebar-nav img {
-    display: none;
-  }
-
-  .sidebar-nav section {
-    border: none;
-  }
-
-  .share-links {
-    position: static;
-    width: 100%;
-  }
-
-  #email-input {
-    width: 94%;
-  }
-
-  #search-bar {
-    height: 70px;
-    width: 70%;
-  }
-}
-
-@media screen and (max-width: 1026px) {
-  #search-bar {
-    width: 69%;
-  }
-}
-
-@media screen and (max-width: 976px) {
-  .link {
-    width: 87%;
-  }
-}
-
-@media screen and (max-width: 861px) {
-  .link {
-    width: 86%;
-  }
-}
-
-@media screen and (max-width: 792px) {
-  .dashboard-nav ul {
-    text-align: center;
-  }
-
-  .edit-buttons {
-    margin-top: 30px;
-    position: static;
-  }
-
-  .job-listing{
-    text-align: center;
-  }
-}
-
-@media screen and (max-width: 772px) {
-  .link {
-    width: 85%;
-  }
-}
-
-@media screen and (max-width: 701px) {
-  .link {
-    width: 84%;
-  }
-}
-
-@media screen and (max-width: 684px) {
-  #search-bar {
-    width: 68%;
-  }
-}
-
-@media screen and (max-width: 650px) {
-  .link,
-  .copy-btn {
-    position: static;
-    width: 94%;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .search {
-    border: none;
-    position: relative;
-    text-align: center;
-    top: 30px; 
-  }
-
-  .search img {
-    display: none;
-  }
-
-  .search .hamburger {
-    display: none;
-  }
-
-  #search-bar {
-    border: 1px solid grey;
-    display: block;
-    width: 100%;
-  }
 }
