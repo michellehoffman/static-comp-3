@@ -128,7 +128,7 @@ h2 {
 
 .job-listing {
   background-color: white;
-  padding: 30px 30px 50px 30px;
+  padding: 30px;
 }
 
 .job-listing button {
@@ -166,7 +166,8 @@ h2 {
   display: inline;
   font-size: 16px;
   margin: 0px 15px 0px 30px;
-  padding-bottom: 17px;
+  padding-bottom: 15px;
+  line-height: 50px;
 }
 
 .dashboard-nav li:hover {
@@ -207,13 +208,13 @@ h2 {
 
 .dashboard {
   border-bottom: 1px solid grey;
-  margin-top: 20px;
+  margin-top: 4px;
   padding-bottom: 50px;
   text-align: center;
 }
 
 .graph {
-  padding: 50px 0px 30px 30px;
+  padding: 50px 0px 30px 0px;
   text-align: center;
   width: 55%;
 }
