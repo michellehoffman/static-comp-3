@@ -176,10 +176,10 @@ h2 {
 /*Dashboard Content*/
 
 .bar-graph {
-  left: 50px;
   position: relative;
-  top: 15px;
+  top: 30px;
   width: 42%;
+  text-align: center;
 }
 
 .bar-graph,
@@ -188,7 +188,6 @@ h2 {
 }
 
 .bar-graph .caption {
-  left: 26%;
   text-transform: uppercase;
   top: 10px;
   width: 145px;
@@ -198,6 +197,7 @@ h2 {
   background-color: white;
   border: 1px solid grey;
   border-radius: 2em;
+  display: inline-block;
   font-size: 14px;
   font-weight: 700;
   padding: 7px;
@@ -209,6 +209,7 @@ h2 {
   border-bottom: 1px solid grey;
   margin-top: 20px;
   padding-bottom: 50px;
+  text-align: center;
 }
 
 .graph {
@@ -227,9 +228,8 @@ h2 {
   border-radius: 100%;
   display: inline-block;
   height: 160px;
-  margin: 20px;
+  margin: 10px;
   transform: rotate(-45deg);
-  text-align: center;
   width: 160px;
 }
 
@@ -252,8 +252,7 @@ h2 {
 }
 
 .graph .caption {
-  left: 29.5%;
-  top: 25px;
+  top: 40px;
   width: 230px;
 }
 
@@ -269,7 +268,10 @@ h2 {
 }
 
 #bar-graph-img {
-  height: 225px;
+  display: block;
+  margin: auto;
+  min-width: 350px;
+  width: 75%;
 }
 
 /*Dashboard Bottom*/
