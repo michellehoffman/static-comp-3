@@ -44,7 +44,6 @@ li {
 .sidebar-nav {
   background-color: grey;
   color: lightgrey;
-  height: 1606px;
   position: absolute;
   width: 200px;
 }
@@ -77,6 +76,7 @@ li {
 /*Main Content Container*/
 
 .content {
+/*  color: #808080;*/
   left: 200px;
   position: absolute;
 }
@@ -84,24 +84,23 @@ li {
 /*Search Bar*/
 
 input {
-  display: inline-flex;
   border: none;
   border-right: 1px solid grey;
-  bottom: 35px;
   font-size: 16px;
-  width: 70%;
+  width: 75%;
   padding: 32px;
   position: relative;
 }
 
 .search {
   border-bottom: 1px solid grey;
+  display: flex;
   height: 80px;
 }
 
 .search form,
 .search img {
-  display: inline-block;
+/*  display: inline-block;*/
   height: 30px;
 }
 
@@ -112,8 +111,7 @@ input {
 
 .search img {
   border-right: 1px solid grey;
-  padding: 25px 0px;
-  width: 7%;
+  padding: 25px 25px;
 }
 
 /*Job Listing Content*/
@@ -131,7 +129,7 @@ h2 {
 
 .job-listing {
   background-color: white;
-  padding: 30px 30px 50px 30px;
+  padding: 30px;
 }
 
 .job-listing button {
@@ -159,17 +157,23 @@ h2 {
 
 #open-btn {
   border-radius: 2em;
+  color: #808080;
   height: 40px;
   width: 70px;
 }
 
 /*Dashboard Nav Bar*/
 
+.dashboard-nav {
+  margin-left: 10px;
+}
+
 .dashboard-nav li {
   display: inline;
   font-size: 16px;
   margin: 0px 15px 0px 30px;
-  padding-bottom: 17px;
+  padding-bottom: 15px;
+  line-height: 50px;
 }
 
 .dashboard-nav li:hover {
@@ -179,10 +183,10 @@ h2 {
 /*Dashboard Content*/
 
 .bar-graph {
-  left: 50px;
   position: relative;
-  top: 15px;
+  top: 30px;
   width: 42%;
+  text-align: center;
 }
 
 .bar-graph,
@@ -191,7 +195,6 @@ h2 {
 }
 
 .bar-graph .caption {
-  left: 26%;
   text-transform: uppercase;
   top: 10px;
   width: 145px;
@@ -201,6 +204,7 @@ h2 {
   background-color: white;
   border: 1px solid grey;
   border-radius: 2em;
+  display: inline-block;
   font-size: 14px;
   font-weight: 700;
   padding: 7px;
@@ -210,18 +214,19 @@ h2 {
 
 .dashboard {
   border-bottom: 1px solid grey;
-  margin-top: 20px;
+  margin-top: 4px;
   padding-bottom: 50px;
+  text-align: center;
 }
 
 .graph {
-  padding: 50px 0px 30px 30px;
+  padding: 50px 0px 30px 0px;
   text-align: center;
   width: 55%;
 }
 
 .grey-background {
-  background-color: lightgrey;
+  background-color: #eaeaea;
 }
 
 .graph-1,
@@ -230,9 +235,8 @@ h2 {
   border-radius: 100%;
   display: inline-block;
   height: 160px;
-  margin: 20px;
+  margin: 10px;
   transform: rotate(-45deg);
-  text-align: center;
   width: 160px;
 }
 
@@ -255,8 +259,7 @@ h2 {
 }
 
 .graph .caption {
-  left: 29.5%;
-  top: 25px;
+  top: 40px;
   width: 230px;
 }
 
@@ -272,7 +275,11 @@ h2 {
 }
 
 #bar-graph-img {
-  height: 225px;
+  display: block;
+  margin: auto;
+  min-width: 320px;
+  max-width: 450px;
+  width: 75%;
 }
 
 /*Dashboard Bottom*/
@@ -322,7 +329,8 @@ thead {
 .col-1 {
   font-weight: 700;
   text-transform: uppercase;
-  padding: 30px 0px 30px 30px;
+  vertical-align: top;
+  padding: 30px 15px 30px 30px;
   width: 30%;
 }
 
@@ -331,12 +339,20 @@ thead {
 }
 
 .dashboard-bottom {
-  padding: 60px 30px 30px 30px;
+  display: flex;
+  padding: 60px 30px 30px 40px;
 }
 
 .description-table {
   background-color: white;
+  display: inline-block;
+  width: 100%;
+}
+
+.table {
+  display: inline-block;
   width: 65%;
+  margin-right: 30px;
 }
 
 /*Social Sharing Section*/
@@ -349,14 +365,9 @@ h3 {
   background-color: green;
   border: none;
   color: white; 
-  display: inline-flex;
-  margin-left: 0;
-  padding: 15px;
-  width: 10%;
-}
-
-.embed p {
-  margin-bottom: 30px;
+  font-size: 16px;
+  padding: 15px 22px 15px 19px;
+/*  text-align: center;*/
 }
 
 .embed,
@@ -383,10 +394,6 @@ h3 {
   background-color: #0077B5;
 }
 
-.link-to-job {
-  margin-top: 25px;
-}
-
 .link-to-job,
 .embed {
   border-bottom: 1px solid grey;
@@ -394,18 +401,18 @@ h3 {
 
 .link-to-job p,
 .embed p {
-  margin: 15px 0px 10px 0px;
+  margin: 15px 0px 20px 0px;
 }
 
 .link-section {
   margin-bottom: 20px;
+  display: flex;
 }
 
 .share-links {
-  position: absolute;
-  right: 30px;
-  top: 693px;
+  display: inline-block;
   width: 30%;
+  min-width: 310px;
 }
 
 .share-links img {
@@ -418,27 +425,33 @@ h3 {
   display: inline;
 }
 
-.share-links input {
+.share-links input,
+.share-links button {
   border: none;
-  padding: 18px;
-  position: relative;
-  top: 25px;
-  width: 87%;
+  margin-bottom: 15px;
+}
+
+.share-links input {
+  display: flex;
+}
+
+.social-btns {
+  margin-bottom: 10px;
 }
 
 .social-btns button{
   border-radius: 0;
   color: white;
   font-size: 16px;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
   padding: 18px;
+  position: relative;
   width: 100%; 
 }
 
 .social-btns img{
+  position: absolute;
   left: 20px;
-  position: relative;
-  top: 40px;
 }
 
 .twitter-btn {
@@ -446,282 +459,190 @@ h3 {
 }
 
 .upload p {
-  margin-top: 10px;
+  margin: 20px 0px;
 }
 
 .upload input {
   font-size: 16px;
   padding: 15px;
-  width: 91%;
+  width: 90%;
 }
 
-/*Media Queries*/
+/*HOVER STATES*/
 
-@media screen and (max-width: 1425px){
+.hamburger,
+.add-contacts,
+.add-event,
+.mark {
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 40px;
+}
 
+.hamburger {
+  background-image: url(svg/013-menu.svg);
+}
+
+.add-contacts {
+  background-image: url(svg/012-add-contacts.svg);
+}
+
+.add-event {
+  background-image: url(svg/011-add-event.svg);
+}
+
+.mark {
+  background-image: url(svg/010-mark.svg);
+}
+
+.hamburger:hover,
+.search-icons:hover {
+  background-color: #03b6fc;
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hamburger:hover {
+  background-image: url(svg/013-menu-hover.svg);
+}
+
+.add-contacts:hover {
+  background-image: url(svg/012-add-contacts-hover.svg);
+}
+
+.add-event:hover {
+  background-image: url(svg/011-add-event-hover.svg);
+}
+
+.mark:hover {
+  background-image: url(svg/010-mark-hover.svg);
+}
+
+/*MEDIA QUERIES*/
+
+@media screen and (max-width: 1305px) {
   .graph {
-    text-align: center;
+    width: 100%;
   }
 
-  .share-links {
-    top: 696px;
-  }
-}
-
-@media screen and (max-width: 1415px) {
-  .share-links {
-    top: 915px;
-  }
-}
-
-@media screen and (max-width: 1377px) {
-  .link-description {
-    font-size: 12px;
-  }
-
-  .sidebar-nav{
-    height: 1848px;
-  }
-
-  .social-btns button{
-    margin-bottom: 0;
-  }
-}
-
-@media screen and (max-width: 1337px) {
   .bar-graph {
-    left: 0;
-  }
-
-  .bar-graph .caption {
-    left: 33%;
-  }
-
-  .dashboard {
-    text-align: center;
-  }
-
-  .graph {
-    padding-left: 0;
     width: 100%;
   }
-
-  .graph .caption {
-    left: 39%;
-  }
-
-  .share-links {
-    top: 961px;
-  }
-
-  .sidebar-nav{
-    height: 1893px;
-  }
 }
 
-@media screen and (max-width: 1268px) {
-
-  .link {
-    width: 69%;
-  }
-}
-
-@media screen and (max-width: 1228px) {
-
-  #search-bar {
-    width: 69.6%;
-  }
-}
-
-@media screen and (max-width: 1217px) {
-
-  .link {
-    width: 68%;
-  }
-}
-
-@media screen and (max-width: 1207px) {
-
+@media screen and (max-width: 1024px) {
   .sidebar-nav {
-    height: 1915px;
-  }
-}
-
-@media screen and (max-width: 1198px) {
-  .dashboard-nav li {
-    margin-right: 0px;
-  }
-
-  .share-links {
-    top: 961px;
-  }
-}
-
-@media screen and (max-width: 1195px) {
-
-  .sidebar-nav {
-    height: 1937px;
-  }
-}
-
-@media screen and (max-width: 1184px) {
-
-  .sidebar-nav {
-    height: 1959px;
-  }
-}
-
-@media screen and (max-width: 1171px) {
-
-  .link {
-    width: 67%;
-  }
-}
-
-@media screen and (max-width: 1129px) {
-  .link {
-    width: 66%;
-  }
-}
-
-@media screen and (max-width: 1123px) {
-
-  .sidebar-nav {
-    height: 1981px;
-  }
-}
-
-@media screen and (max-width: 1101px) {
-  .content {
-    left: 0;
-    top: 101px;
-    width: 100%;
-  }
-
-  .copy-btn {
-    width: 5%;
-  }
-
-  .dashboard-nav li {
-    line-height: 50px;
-  }
-
-  .description-table {
-    width: 100%;
-  }
-
-  .sidebar-nav {
-    display: inline-flex;
-    height: 100px;
-    width: 100%;
-  }
-
-  .link {
-    width: 88%;
-  }
-
-  .sidebar-nav li,
-  .sidebar-nav img {
     display: none;
   }
 
-  .sidebar-nav section {
-    border: none;
-  }
-
-  .share-links {
-    position: static;
+  .content {
     width: 100%;
-  }
-
-  #email-input {
-    width: 94%;
-  }
-
-  #search-bar {
-    height: 70px;
-    width: 70%;
+    left: 0px;
   }
 }
 
-@media screen and (max-width: 1026px) {
-  #search-bar {
-    width: 69%;
-  }
-}
-
-@media screen and (max-width: 976px) {
-  .link {
-    width: 87%;
-  }
-}
-
-@media screen and (max-width: 861px) {
-  .link {
-    width: 86%;
-  }
-}
-
-@media screen and (max-width: 792px) {
-  .dashboard-nav ul {
+@media screen and (max-width: 800px) {
+  .job-listing {
     text-align: center;
   }
 
   .edit-buttons {
-    margin-top: 30px;
     position: static;
+    margin-top: 30px
   }
 
-  .job-listing{
-    text-align: center;
-  }
-}
-
-@media screen and (max-width: 772px) {
-  .link {
-    width: 85%;
-  }
-}
-
-@media screen and (max-width: 701px) {
-  .link {
-    width: 84%;
-  }
-}
-
-@media screen and (max-width: 684px) {
-  #search-bar {
-    width: 68%;
-  }
-}
-
-@media screen and (max-width: 650px) {
-  .link,
-  .copy-btn {
-    position: static;
-    width: 94%;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .search {
-    border: none;
-    position: relative;
-    text-align: center;
-    top: 30px; 
-  }
-
-  .search img {
-    display: none;
-  }
-
-  .search .hamburger {
-    display: none;
-  }
-
-  #search-bar {
-    border: 1px solid grey;
+  .dashboard-bottom {
     display: block;
+  }
+
+  .table,
+  .share-links {
     width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .link {
+    width: 87%;
+  }
+
+  .social-btns button {
+    width: 32%;
+  }
+
+  .social-btns {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .graph-1,
+  .graph-2,
+  .graph-3 {
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+
+  .graph .caption {
+    top: 0;
+  }
+
+  .bar-graph .caption {
+    margin: 20px 0px;
+  }
+
+  .search-icons {
+    display: none;
+  }
+
+  #search-bar {
+    width: 90%;
+  }
+
+  .dashboard-bottom {
+/*    text-align: center;*/
+    padding-right: 0px;
+    padding: 60px 10px;
+  }
+
+  .table {
+    margin: auto;
+  }
+
+  .table,
+  .share-links {
+    width: 100%;
+    overflow: scroll;
+/*    margin: auto;*/
+  }
+
+  .bar-graph {
+    overflow: scroll;
+  }
+ 
+  .social-btns {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .social-btns button {
+    width: 100%;
+  }
+
+  #email-input {
+    width: 86%;
+  }
+}
+
+@media screen and (max-width: 333px) {
+  .social-btns button {
+    width: 97%;
+  }
+
+  .link {
+    width: 60%;
   }
 }

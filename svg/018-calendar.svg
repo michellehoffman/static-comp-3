@@ -1,53 +1,26 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
-<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;" xml:space="preserve">
+	 width="200px" height="200px" viewBox="0 0 200 200" enable-background="new 0 0 200 200" xml:space="preserve">
 <g>
-	<rect x="22" y="43" width="7" height="7"/>
-	<rect x="22" y="25" width="7" height="7"/>
-	<rect x="22" y="34" width="7" height="7"/>
-	<rect x="13" y="34" width="7" height="7"/>
-	<rect x="13" y="25" width="7" height="7"/>
-	<rect x="13" y="43" width="7" height="7"/>
-	<rect x="40" y="25" width="7" height="7"/>
-	<path d="M57,4h-7V1c0-0.553-0.447-1-1-1h-7c-0.553,0-1,0.447-1,1v3H19V1c0-0.553-0.447-1-1-1h-7c-0.553,0-1,0.447-1,1v3H3
-		C2.447,4,2,4.447,2,5v11v43c0,0.553,0.447,1,1,1h54c0.553,0,1-0.447,1-1V16V5C58,4.447,57.553,4,57,4z M49,32v2v7v2v9h-9h-2h-7h-2
-		h-7h-2h-9v-9v-2v-7v-2v-9h9h2h7h2h7h2h9V32z M56,15H4V6h6v3c0,0.553,0.447,1,1,1h7c0.553,0,1-0.447,1-1V6h22v3c0,0.553,0.447,1,1,1
-		h7c0.553,0,1-0.447,1-1V6h6V15z"/>
-	<rect x="40" y="34" width="7" height="7"/>
-	<rect x="40" y="43" width="7" height="7"/>
-	<rect x="31" y="43" width="7" height="7"/>
-	<rect x="31" y="34" width="7" height="7"/>
-	<rect x="31" y="25" width="7" height="7"/>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
+	<rect x="73.333" y="143.334" fill="#D3D3D3" width="23.333" height="23.332"/>
+	<rect x="73.333" y="83.333" fill="#D3D3D3" width="23.333" height="23.333"/>
+	<rect x="73.333" y="113.334" fill="#D3D3D3" width="23.333" height="23.332"/>
+	<rect x="43.333" y="113.334" fill="#D3D3D3" width="23.333" height="23.332"/>
+	<rect x="43.333" y="83.333" fill="#D3D3D3" width="23.333" height="23.333"/>
+	<rect x="43.333" y="143.334" fill="#D3D3D3" width="23.333" height="23.332"/>
+	<rect x="133.334" y="83.333" fill="#D3D3D3" width="23.332" height="23.333"/>
+	<path fill="#D3D3D3" d="M190,13.333h-23.334v-10c0-1.843-1.489-3.333-3.332-3.333H140c-1.844,0-3.334,1.49-3.334,3.333v10H63.333
+		v-10C63.333,1.49,61.843,0,60,0H36.667c-1.843,0-3.333,1.49-3.333,3.333v10H10c-1.843,0-3.333,1.49-3.333,3.333v36.667v143.333
+		C6.667,198.51,8.157,200,10,200h180c1.844,0,3.334-1.49,3.334-3.334V53.333V16.667C193.334,14.823,191.844,13.333,190,13.333z
+		 M163.334,106.666v6.668v23.332v6.668v30h-30h-6.668h-23.332h-6.667H73.333h-6.667h-30v-30v-6.668v-23.332v-6.668v-30h30h6.667
+		h23.333h6.667h23.332h6.668h30V106.666z M186.666,50H13.333V20h20v10c0,1.843,1.49,3.333,3.333,3.333H60
+		c1.843,0,3.333-1.49,3.333-3.333V20h73.333v10c0,1.843,1.49,3.333,3.334,3.333h23.334c1.843,0,3.332-1.49,3.332-3.333V20h20V50z"/>
+	<rect x="133.334" y="113.334" fill="#D3D3D3" width="23.332" height="23.332"/>
+	<rect x="133.334" y="143.334" fill="#D3D3D3" width="23.332" height="23.332"/>
+	<rect x="103.334" y="143.334" fill="#D3D3D3" width="23.332" height="23.332"/>
+	<rect x="103.334" y="113.334" fill="#D3D3D3" width="23.332" height="23.332"/>
+	<rect x="103.334" y="83.333" fill="#D3D3D3" width="23.332" height="23.333"/>
 </g>
 </svg>
